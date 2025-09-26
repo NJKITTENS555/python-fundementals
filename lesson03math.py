@@ -36,3 +36,21 @@ print("Result 4:", result4)
 
 result5 = 5 + 2 ** 3 * (4 - 1)
 print("Result 5: ", result5)
+
+# CHALLENGES
+
+rec2 = 8 * 5
+print(" rectangle area:", rec2)
+
+circle = 3.14 * 7 
+print("Area: ", circle)
+
+price123 = (12.99 * 3) + (3.50 * 4)
+print("price: $", price123)
+
+variable = 357
+oddoreven = variable % 2
+if oddoreven == 0:
+     print("even")
+if oddoreven == 1:
+     print("odd")
