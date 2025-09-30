@@ -48,9 +48,9 @@ print("Area: ", circle)
 price123 = (12.99 * 3) + (3.50 * 4)
 print("price: $", price123)
 
-variable = 357
+variable = 2029
 oddoreven = variable % 2
 if oddoreven == 0:
      print("even")
 if oddoreven == 1:
-     print("odd")
+     print("odd") 
