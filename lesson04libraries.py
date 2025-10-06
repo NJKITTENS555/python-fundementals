@@ -41,4 +41,4 @@ circle_area = 3.14
 #print( circle_area * radius**)   
 
 dieroll = ["1", "2", "3", "4", "5", "6" ]
-print
+print(random.choice(dieroll))
