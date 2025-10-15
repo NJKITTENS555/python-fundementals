@@ -80,3 +80,27 @@ else:
 
 if day is not "Monday":
     print("It's not Monday")
+
+oddoreven = int(input("enter a number:"))
+print(oddoreven)
+oddoreven2 = oddoreven % 2
+if oddoreven2 == 0:
+    print(oddoreven, "is even")
+else:
+    print(oddoreven, "is odd")
+
+ # Challenge 2: Password Check
+# Create a variable with a stored password
+# Ask the user to enter a password. 
+# If it matches the stored password, print "Access granted." Otherwise, "Access denied."
+# Example output:
+# Enter password: dolphin
+# Access granted. Access denied.
+# Enter password: swordfish
+# Access granted.
+
+password = input("enter your password:")
+if password == "nedyaj":
+    print("Acsess Granted!")
+else:
+    print("acsess denied")
