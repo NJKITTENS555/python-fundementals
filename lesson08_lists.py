@@ -43,3 +43,53 @@ print("Remaining animals:", animals)
 print()
 print("--- Useful List Functions ---")
 
+nums = [3, 7, 1, 9, 4, 2, 5, 8, 6, 0]
+print("Original Numbers:", nums)
+print("Length of the list:", len(nums))
+print("Min:", min(nums))
+print("Max:", max(nums))
+print("Sum:", sum(nums))
+
+nums.sort()
+print(nums)
+
+animals.sort
+print(animals)
+nums.reverse()
+print(nums)
+
+print()
+print("--- Checking Membership ---")
+
+if "cat" in animals:
+    print("Cat is in the list!")
+else:
+    print("Cat is not in the list.")
+
+print()
+print("--- Copying Lists ---")
+
+newlist = [1, 2, 3]
+copiedlist = newlist.copy()
+copiedlist.append(4)
+print(newlist)
+print(copiedlist)
+
+matrix = [  
+    [1,2,3], 
+    [4,5,6], 
+    [7,8,9]  
+    ] 
+
+print(matrix[2][2])
+
+list123 = [1, 2, 3, 4, 5, 6]
+print(list123)
+listnum = input("type a number:")
+newlist123 = [1, 2, listnum, 4, 5, 6]
+print(newlist123)
+
+shopping = []
+shopping.append("nuclear waste")
+shopping.append("the tsar bomb")
+shopping.append("landmines")
